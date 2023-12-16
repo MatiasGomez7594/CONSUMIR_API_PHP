@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.galeria-personajes{
+    display: inline-flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.personaje{
+    background-color: #dddf;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    width: 300px;
+}
+.personaje h3{
+    padding: 5px;
+
+}
+
+.personaje img{
+    width: 100%;
+}
